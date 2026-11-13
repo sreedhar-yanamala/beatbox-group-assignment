@@ -1,0 +1,30 @@
+{
+  "name": "beatbox-music-room",
+  "version": "1.0.0",
+  "description": "BeatBox Music Room - Instrument Loan Management API (BDF Group YG-CSE2E-G09)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "init-db": "node src/db/initDb.js",
+    "test": "node --test tests/api.test.js"
+  },
+  "keywords": [
+    "express",
+    "sqlite3",
+    "instrument-loans",
+    "bdf-assignment",
+    "beatbox"
+  ],
+  "author": "YG-CSE2E-G09",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}
